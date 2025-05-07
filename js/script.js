@@ -3,12 +3,12 @@
 // Created by: Adrina Peighambarzadeh
 // Created on: May 2025
 // This file contains the JS functions for index.html
-
+  "use strict"
 /**
  * This function calculates the sum of all numbers from 1 to the given number.
  */
 // eslint-disable-next-line no-unused-vars
-function doMultiplication() {
+function calculate() {
   // input
   let counter = 1
   let answer = 0
