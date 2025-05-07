@@ -19,10 +19,6 @@ function calculate() {
     answer = answer + counter
     counter = counter + 1
   }
-
-  // process using formula
-  const formulaAnswer = (userNumber * (userNumber + 1)) / 2
-
   // output
   document.getElementById('answer').innerHTML =
     'Sum using loop: ' + answer + '<br>' +
